@@ -1,3 +1,48 @@
 .App {
   text-align: center;
 }
+button{
+  margin: 50px auto;
+  width: 200px;
+  height: 100px;
+  background: yellow;
+  font-size: 50px;
+  border-radius: 15px;
+}
+.div-container{
+  width: 50%;
+  margin: 0 auto 50px;
+  background: #000000c4;
+  border-radius: 15px;
+  padding: 25px;
+  color: white;
+  box-shadow: 
+    0 0 1px hsla(0, 0%, 0%, 0.795), 0 0 2px hsl(0deg 0% 0% / 0.075),
+    0 0 4px hsla(0, 0%, 0%, 0.856), 0 0 8px hsl(0deg 0% 0% / 0.075),
+    0 0 16px hsla(0, 0%, 0%, 0.89);
+  transform-origin: 10% 60%;
+}
+img{
+  width: 150px;
+  height: 150px;
+  font-size: 16px;
+  font-weight: 600;
+}
+h6{
+  font-size: 24px;
+  /* margin: 0 auto; */
+}
+p{
+  font-size: 22px;
+}
+span{
+  margin: 0 auto;
+  padding: 15px;
+  width: 100px;
+  height: 20px;
+  background: red;
+  border-radius: 15px;
+}
+.active{
+  background: green;
+}
