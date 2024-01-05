@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  --box-shadow: 0 0 1px hsla(0, 0%, 0%, 0.795), 0 0 2px hsl(0deg 0% 0% / 0.075),
+  0 0 4px hsla(0, 0%, 0%, 0.856), 0 0 8px hsl(0deg 0% 0% / 0.075),
+  0 0 16px hsla(0, 0%, 0%, 0.89);
+  --border-radius: 15px;
 }
 button{
   margin: 50px auto;
@@ -7,20 +11,18 @@ button{
   height: 100px;
   background: yellow;
   font-size: 50px;
-  border-radius: 15px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
 }
 .div-container{
   width: 50%;
   margin: 0 auto 50px;
   background: #000000c4;
-  border-radius: 15px;
+  border-radius: var(--border-radius);
   padding: 25px;
   color: white;
-  box-shadow: 
-    0 0 1px hsla(0, 0%, 0%, 0.795), 0 0 2px hsl(0deg 0% 0% / 0.075),
-    0 0 4px hsla(0, 0%, 0%, 0.856), 0 0 8px hsl(0deg 0% 0% / 0.075),
-    0 0 16px hsla(0, 0%, 0%, 0.89);
-  transform-origin: 10% 60%;
+  box-shadow: var(--box-shadow);
 }
 img{
   width: 150px;
@@ -30,18 +32,18 @@ img{
 }
 h6{
   font-size: 24px;
-  /* margin: 0 auto; */
+  /* margin: 30px auto; */
 }
 p{
   font-size: 22px;
 }
 span{
-  margin: 0 auto;
+  margin: 0 auto 30px;
   padding: 15px;
-  width: 100px;
+  width: 80px;
   height: 20px;
   background: red;
-  border-radius: 15px;
+  border-radius: var(--border-radius);
 }
 .active{
   background: green;
